@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   background: #ffffff;
@@ -11,13 +12,11 @@ body {
 .maincontainer{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 10px;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .forecast-container{
@@ -46,10 +45,9 @@ body {
   max-width: 600px;
   background: rgba(0, 66, 3, 0.74);
   color: rgb(255, 255, 255);
-  padding: 20px;
+  padding: 10px;
   border-radius: 30px;
   box-shadow: 2px 2px 15px black, inset -12px -12px 15px black;
-  margin-bottom: 1em;
 }
 
 .card2{
@@ -66,6 +64,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   background-color: rgba(0, 66, 3, 0.74);
+  margin-bottom: 5px;
 }
 
 input.searchbar{
@@ -131,7 +130,7 @@ button:hover{
 
 @media (max-width: 768px) {
   .card1{
-    font-size: 80%;
+    font-size: 70%;
   }
 
   .card1, .card2{
